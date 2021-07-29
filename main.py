@@ -38,7 +38,7 @@ myFont = font.Font(family="Raleway"
 # LOGO VISIBLE ON THE DOCK/TASKBAR
 
 # LOGO INSIDE THE WINDOW
-Logo = ImageTk.PhotoImage(Image.open("/Users/abhishektrehan/Desktop/Developer/PythonProjects/COVIHELP/yello.png"))
+Logo = ImageTk.PhotoImage(Image.open("/Users/abhishektrehan/Desktop/Developer/PythonProjects/COVIHELP/covihelplogo.png"))
 LogoLabel = Label(image=Logo)
 LogoLabel.image = Logo
 LogoLabel.grid(column=1, row=0, pady=(30, 10))
@@ -543,7 +543,7 @@ compare_cases_button.grid(row=3, column=1, pady=(20, 40), padx=(20, 10))
 # technifyed logo
 #LogoLabel = Label(image=Logo)
 #LogoLabel.image = Logo
-technifyed_logo = ImageTk.PhotoImage(Image.open("/Users/abhishektrehan/Desktop/Developer/PythonProjects/WordCloudKivy/aa.png"))
+technifyed_logo = ImageTk.PhotoImage(Image.open("/Users/abhishektrehan/Desktop/Developer/PythonProjects/WordCloudKivy/technifyed_logo.png"))
 technifyed_logo_label = Label(image=technifyed_logo)
 technifyed_logo_label.image = technifyed_logo
 technifyed_logo_label.grid(row=4, column=1, pady=30, padx=10)
