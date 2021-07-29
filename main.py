@@ -38,7 +38,7 @@ myFont = font.Font(family="Raleway"
 # LOGO VISIBLE ON THE DOCK/TASKBAR
 
 # LOGO INSIDE THE WINDOW
-Logo = ImageTk.PhotoImage(Image.open("covihelplogo.png"))
+Logo = ImageTk.PhotoImage(Image.open("yourpath/covihelplogo.png"))
 LogoLabel = Label(image=Logo)
 LogoLabel.image = Logo
 LogoLabel.grid(column=1, row=0, pady=(30, 10))
@@ -105,7 +105,7 @@ def stats():
             df1.plot(kind='bar', legend=True, ax=ax1)
             ax1.set_title('Graph')
             root.geometry("858x750")
-            technifyed_logo = ImageTk.PhotoImage(Image.open("/Users/abhishektrehan/Desktop/aa.png"))
+            technifyed_logo = ImageTk.PhotoImage(Image.open("your_path/technifyed_logo.png"))
             technifyed_logo_label = Label(image=technifyed_logo)
             technifyed_logo_label.image = technifyed_logo
             technifyed_logo_label.grid(row=1, column=1, pady=30, padx=10)
@@ -543,7 +543,7 @@ compare_cases_button.grid(row=3, column=1, pady=(20, 40), padx=(20, 10))
 # technifyed logo
 #LogoLabel = Label(image=Logo)
 #LogoLabel.image = Logo
-technifyed_logo = ImageTk.PhotoImage(Image.open("technifyed_logo.png"))
+technifyed_logo = ImageTk.PhotoImage(Image.open("your_path/technifyed_logo.png"))
 technifyed_logo_label = Label(image=technifyed_logo)
 technifyed_logo_label.image = technifyed_logo
 technifyed_logo_label.grid(row=4, column=1, pady=30, padx=10)
